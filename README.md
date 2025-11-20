@@ -84,4 +84,5 @@ The related data processing scripts are located in the **./dataset** directory.
 
 ## Notes
 
-+ If there are any issues with the code, please  send the email  to us.
++ If there are any issues with the code, please  send the email  to us. The email address will be made public after the peer-review process.
+
