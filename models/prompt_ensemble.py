@@ -69,12 +69,12 @@ class Prompt_Ensemble():
         ]
 
         self.prompt_templates_abnormal_general = [
-            "abnormal", "defective", "flawed", "imperfect", "faulty", "problematic", "unqualified", "unacceptable", "wrong",
-            "damaged", "broken", "cracked", "fractured", "split", "shattered", "ruptured", "weakened", "collapsed",
-            "irregular", "distorted", "deformed", "misaligned", "unbalanced", "unstable", "inconsistent",
-            "dirty", "stained", "marked", "scratched", "blemished", "rough", "uneven", "worn", "dented", "spotted",
-            "failed", "unstable-operation", "malfunctioning", "nonfunctional", "unreliable", "uncontrolled", "inactive"
+            "abnormal", "defective", "flawed", "damaged", "broken", "cracked", "fractured", "split", "shattered", "weakened",
+            "problematic", "unreliable", "unsafe", "nonstandard", "unqualified", "unstable", "fragile", "loose", "worn", "inconsistent",
+            "dirty", "rough", "blurred", "nonuniform", "uneven", "irregular", "messy", "marked", "stained", "blemished",
+            "malfunctioning", "failed", "nonfunctional", "improper", "incorrect", "unbalanced", "distorted"
         ]
+        
 
         self.prompt_templates_abnormal = ["a photo of a damaged <|class|>"]
         self.prompt_templates_normal = ["a photo of a good <|class|>"]
